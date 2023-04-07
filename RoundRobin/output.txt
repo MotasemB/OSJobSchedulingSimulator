@@ -1,0 +1,41 @@
+Final State of system:
+Current Available Main Memory: 45
+Current Avaiblable Devices: 12
+
+Competed Jobs:
+-----------------
+Job ID   Arrival Time    Finish Time  Turnaround Time
+------------------------------------------------------------
+ 1         1              16              15 
+ 2         2              46              44 
+12        45             106              61 
+ 4         5             136             131 
+13        58             166             108 
+11        26             196             170 
+ 3         3             226             223 
+ 6         9             256             247 
+ 7        10             286             276 
+10        20             316             296 
+
+System turnaround time: 1571
+
+******************************************************************
+
+
+Final State of system:
+Current Available Main Memory: 40
+Current Avaiblable Devices: 0
+
+Competed Jobs:
+-----------------
+Job ID   Arrival Time    Finish Time  Turnaround Time
+------------------------------------------------------------
+ 1         2              17              15 
+ 2         3              47              44 
+ 3         4              77              73 
+
+System turnaround time: 132
+
+******************************************************************
+
+
