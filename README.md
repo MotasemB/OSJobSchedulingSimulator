@@ -25,18 +25,16 @@ The input to your program will be a text file containing multiple commands, each
  - System Configuartion \(C\): Each text file contains multiple type "C" (system configuration) commands. <br>
  Example: C 9 M=45 S=12<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This example states that the system to be simulated starts at time 9, and that the  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;system has a main  memory consisting of 45 units and 12 serial devices
+system has a main  memory consisting of 45 units and 12 serial devices
 
  - Job Arrrival (A): This commands indicates that a job is coming in to the system, and gives information about the coming job<br>
  Example: A 10 J=1 M=5 S=4 R=5 P=1<br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This example states that job number 1 arrives at time 10, requires 5 units of main memory, holds no  more than 4 devices at any point 
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;during execution, runs for 5, and has priority 1.
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This example states that job number 1 arrives at time 10, requires 5 units of main memory, holds no  more than 4 devices at any point during execution, runs for 5, and has priority 1.
  
  - A display of the current system status (D): This commands tells the program to output the current status of the system<br>
  Example: D 11<br>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This examples states that at time 11 an external event is generated and the following should be printed:  
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. A list of each job that has entered the system; for each job, print the state of the job, the remaining service time for unfinished jobs 
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and the turnaround time.  
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. A list of each job that has entered the system; for each job, print the state of the job, the remaining service time for unfinished jobs and the turnaround time.  
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.The contents of each queue.<br>
  
 It is is assumed that at the end of each file there is a 'D ∞' command, ∞ is assumed to be a very large number and will denoted as 999999. This command will show the final state of the system.
